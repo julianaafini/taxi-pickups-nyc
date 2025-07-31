@@ -72,9 +72,7 @@ For GPU acceleration with RAPIDS (cuDF/cuML), you will need a CUDA-enabled GPU a
 
 The dataset is hosted on Google Drive. You'll need to make it accessible to your environment.
 
-1. **Access the Dataset**:
-   The data sets are available in the following Google Drive link:
-   <https://drive.google.com/drive/folders/1WMwLUj0t4Q0GSll96lbF2bDjaPVh1w8z?usp=sharing>
+1. **Access the Dataset**
 
 2. **Google Colab Setup**:
    If you are running this in Google Colab, it's recommended to "Add Shortcut to your Drive" for the shared folder. Then, mount your Google Drive in the Colab notebook:
@@ -83,7 +81,6 @@ The dataset is hosted on Google Drive. You'll need to make it accessible to your
 from google.colab import drive
 drive.mount('/content/drive')
 ```
-The notebook expects the data files (e.g., `sample.csv.gz`, `sorted_data.csv.gz`, `tiny.csv.gz`) to be located in `/content/drive/MyDrive/assignment1/`. Adjust the `FILENAME_small`, `FILENAME_large`, or `FILENAME` variables in the notebook if your data path differs.
 
 ### Running the Notebook
 
