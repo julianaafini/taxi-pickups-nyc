@@ -16,66 +16,6 @@
 
 * [Analysis Highlights](#analysis-highlights)
 
-
-## Project Overview
-
-This project, documented in the `taxi_pickups_nyc_analysis.ipynb` Jupyter Notebook, performs an analysis of NYC taxi pickup data. It explores the dataset using various Python libraries, including Spark for large-scale data processing and cuDF/cuML for GPU-accelerated computations, alongside traditional Pandas and scikit-learn. The notebook demonstrates data loading, basic statistical analysis, and geographical plotting of pickup locations.
-
-## Features
-
-* **Data Loading & Schema Definition**: Defines a precise schema for the taxi data and loads it efficiently.
-
-* **Statistical Summary**: Calculates and displays key statistics about the taxi trips (e.g., number of unique medallions/licenses, min/max pickup/dropoff times, max trip time/distance/amount).
-
-* **Geographical Plotting**: Visualizes taxi pickup locations on a scatter plot to identify patterns and potential data anomalies.
-
-* **Multi-framework Approach**: Integrates Pandas, Apache Spark, and RAPIDS (cuDF/cuML) for flexible data handling and analysis, demonstrating different approaches for various dataset sizes.
-
-## Technologies Used
-
-* **Python**: The primary programming language.
-
-* **Jupyter Notebook**: For interactive development and analysis.
-
-* **Pandas**: For general data manipulation and analysis.
-
-* **Apache Spark (PySpark)**: For distributed data processing and SQL queries on large datasets.
-
-* **cuDF / cuML (RAPIDS)**: For GPU-accelerated dataframes and machine learning tasks, offering significant speedups for compatible hardware.
-
-* **Matplotlib**: For data visualization.
-
-* **gdown**: For downloading files from Google Drive.
-
-* **scikit-learn**: For clustering algorithms (though not explicitly shown in the provided snippet, it's typically used for KMeans).
-
-* **NumPy**: For numerical operations.
-
-## Getting Started
-
-### Prerequisites
-
-To run this notebook, you'll need a Python environment with the following libraries installed. Some libraries like `pyspark` and `rapidsai` (cuDF/cuML) might require specific environments or GPU access, especially if running on Google Colab.
-# NYC Taxi Pickups Analysis
-
-## Table of Contents
-
-* [Project Overview](#project-overview)
-
-* [Features](#features)
-
-* [Technologies Used](#technologies-used)
-
-* [Getting Started](#getting-started)
-
-* [Project Structure](#project-structure)
-
-* [Data](#data)
-
-* [Analysis Highlights](#analysis-highlights)
-
-* [License](#license)
-
 ## Project Overview
 
 This project, documented in the `taxi_pickups_nyc_analysis.ipynb` Jupyter Notebook, performs an analysis of NYC taxi pickup data. It explores the dataset using various Python libraries, including Spark for large-scale data processing and cuDF/cuML for GPU-accelerated computations, alongside traditional Pandas and scikit-learn. The notebook demonstrates data loading, basic statistical analysis, and geographical plotting of pickup locations.
